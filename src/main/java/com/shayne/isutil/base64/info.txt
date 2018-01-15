@@ -1,0 +1,5 @@
+Base64Coder是通用的Base64编码解码的工具
+UrlBase64Coder是Url的Base64编码解码的工具
+该方式：有两种提供者提供了实现，Sun公司并没有提供实现。
+Bouncy Castle和Apache Commons提供了实现。所以调用该工具时，可以通过setType(Type type)来设置你想使用
+哪个厂商的实现。
