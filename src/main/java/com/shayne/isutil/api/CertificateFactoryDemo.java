@@ -11,6 +11,7 @@ public class CertificateFactoryDemo {
 		FileInputStream is = new FileInputStream("D:\\tmp\\shayne.crt");
 		// 2.获取证书
 		Certificate cert = cf.generateCertificate(is);
+		System.out.println(new String(cert.getPublicKey().getEncoded()));
 		// 3.关闭流
 		is.close();
 
